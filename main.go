@@ -60,6 +60,7 @@ func listLoansByBorrower(c *gin.Context) {
 	if len(getLoansWithId) == 0 {
 		msg := fmt.Sprintf("No loans for user %s", personalID)
 		c.IndentedJSON(http.StatusNotFound, gin.H{"error": msg})
+		return
 	}
 	c.IndentedJSON(http.StatusOK, getLoansWithId)
 }
