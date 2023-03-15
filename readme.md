@@ -49,4 +49,4 @@ For testing, run:
 `bash test.sh`
 
 ### Written in Go version 1.19
-#### Authors[jserva90](https://github.com/jserva90)
+#### Authors [jserva90](https://github.com/jserva90)
